@@ -1,32 +1,83 @@
 
 
+/* The next lines override the browser's margin and padding defaults */
+
 * {
-    border: 1px solid red;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
     }
 
+body {
+/* Font stack explanation
+- system-ui: uses the OS default UI font (Segoe UI on Windows, San Francisco on Mac)
+- -apple-system: Fallback for older Safari browsers
+- sans-serif: Universal fallback if system fonts fail
+*/
+
+font-family: system-ui, -apple-system, sans-serif;
+
+/* Line height 1.6 = 160% of font size - improves readability */
+
+line-height: 1.6;
+
+/* #333 is dark gray - softer than pure black for better reading experience */
+color: #333;
+
+}
+
+nav {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+}
 
 header {
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     gap: 2rem;
     height: 70vh;
-    background-color: bisque;
+    background-color: bisque;  */
+
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    height: 60vh;
+    background-color: #f8f9fa;
+
+
 }
 
 .header_text {
 
     background-color: cadetblue;
-    height: 50vh;
-    width: 45%;
+    flex: 1;
+    padding: 2rem;
 }
 
-.headerpic {
+.header_pic {
 
-    background-color: cadetblue;
-    height: 50vh;
-    width: 45%;
+    flex: 1;
+    /* Takes up equal space */
+    background-color: #e9ecef;
+    min-height: 300px;
+    border-radius: 10px;
+    /* Subtle rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
 }
+
+main {
+    max-width: 100ch; /* About 100 characters wide - good for reading on any screen */
+    margin: 0 auto; /* Centers the content */
+    padding: 5%;    /* 5% padding scales with screen size*/
+}
+
+
 
 
 h1 {
@@ -39,3 +90,24 @@ h2 {
     background-color:rgb(42, 177, 
     177);
 }
+
+section {
+    margin-bottom: 2rem;
+    
+}
+
+/* Consistent spacing between paragraphs */
+p + p {
+    margin-top: 1rem;
+}
+
+h1 {
+    color: #4d1979
+    font-size: 2.5rem;
+    /* Large, clear headline */
+    font-weight: 700;
+    /* Bold for impact */
+    margin-bottom: 1rem;
+}
+
+
