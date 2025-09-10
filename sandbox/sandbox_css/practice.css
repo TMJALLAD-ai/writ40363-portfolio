@@ -71,6 +71,29 @@ header {
     color: #6c757d;
 }
 
+nav {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+nav a {
+  color: #495057;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Basic focus state for accessibility */
+nav a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
 main {
     max-width: 100ch; /* About 100 characters wide - good for reading on any screen */
     margin: 0 auto; /* Centers the content */
@@ -110,4 +133,32 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h1 {
+  font-size: 2.5rem; /* Large, clear headline */
+  font-weight: 700;  /* Bold for impact */
+  color: #2d3748;    /* Darker gray for headings */
+  margin-bottom: 1rem;
+  line-height: 1.2;  /* Tighter spacing for headings */
+}
 
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.8rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555; /* Slightly lighter for body text */
+}
