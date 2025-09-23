@@ -163,10 +163,8 @@ main {
   }
 }
 
-/* Consistent section spacing */
-section {
-  /* Individual section styling stays the same */
-}
+
+
 
 /* Responsive container padding */
 @media (min-width: 768px) {
@@ -225,9 +223,7 @@ section h2::after {
   border-radius: 8px;
 }
 
-.about-text {
-  /* Text styling stays the same */
-}
+
 
 .skills-container {
   display: grid;
@@ -306,7 +302,7 @@ p + p {
 }
 
 h1 {
-    color: #4d1979
+    color: #4d1979;
     font-size: 2.5rem;
     /* Large, clear headline */
     font-weight: 700;
