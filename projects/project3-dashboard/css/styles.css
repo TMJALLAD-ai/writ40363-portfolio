@@ -1,3 +1,48 @@
+/* ===================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   =================================== */
+
+:root {
+  /* Color Palette */
+  --color-primary: #667eea;
+  --color-secondary: #764ba2;
+  --color-accent: #4299e1;
+
+  /* Backgrounds */
+  --color-bg-light: #f7fafc;
+  --color-bg-white: #ffffff;
+
+  /* Text Colors */
+  --color-text-dark: #2d3748;
+  --color-text-muted: #718096;
+
+  /* UI Elements */
+  --color-border: #e2e8f0;
+  --color-error: #e53e3e;
+  --color-error-bg: #fff5f5;
+  --color-error-border: #fc8181;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 10px 24px rgba(0, 0, 0, 0.15);
+
+  /* Spacing */
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 32px;
+
+  /* Typography */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
