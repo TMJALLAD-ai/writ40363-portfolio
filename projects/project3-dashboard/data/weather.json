@@ -1,8 +1,9 @@
 {
-  "location": "Fort Worth, TX",
-  "temperature": 72,
-  "condition": "Partly Cloudy",
-  "icon": "⛅",
-  "humidity": 65,
-  "windSpeed": 8
+  "location": "Flower Mound, TX",
+  "temperature": 75,
+  "condition": "Sunny",
+  "icon": "☀️",
+  "humidity": 60,
+  "windSpeed": 5,
+  "feelsLike": 77
 }
