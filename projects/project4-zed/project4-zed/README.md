@@ -1,6 +1,6 @@
 # Budgeting Web Application
 
-This project is a budgeting web application that allows users to manage their finances effectively. It includes features for adding, updating, and deleting budget items, as well as visualizing spending through charts and graphs.
+This project is a budgeting web application that allows users to manage their finances effectively. It includes features for adding, updating, and deleting budget items, as well as visualizing spending through a graph.
 
 ## Project Structure
 
