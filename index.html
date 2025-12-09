@@ -3,26 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-
+    <title>TJ Jallad - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
 
-
-<header>
-
-    <div class ="header_text">
-
-
-    <h1>Taysir "TJ" Jallad</h1>
-    <p>Digital Media Student </p>
-    <p>Business major looking to expand technical skills</p>
-
 <nav>
     <div class="nav-container">
-        <a href="#" class="logo">Taysir "TJ" Jallad</a>
+        <a href="#" class="logo">TJ</a>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -32,93 +20,181 @@
     </div>
 </nav>
 
+<header>
+    <div class="header-content">
+        <div class="header-text">
+            <h1>Taysir "TJ" Jallad</h1>
+            <p class="subtitle">Digital Media & Web Development Student</p>
+            <p class="tagline">Business major exploring the intersection of technology and communication</p>
+        </div>
+        <div class="header-image">
+            <img src="images/croppedheadshot2025.jpg" alt="TJ Jallad Professional Headshot" />
+        </div>
     </div>
-
-    <div class ="header_pic">
-    <img src="images/croppedheadshot2025.jpg" alt="TJ Jallad Professional Headshot" />
-    </div>
-
-   
-
-    
 </header>
-
 
 <main>
 
-<section class ="about-section" id="about">
-    <div class="about-image">
-        <!--<img-->
-    </div>
-    <div class="about-text">
-        <h2>About Me</h2>
-        <p>I am from Flower Mound, Texas and graduated from Flower Mound High School. I have lived in Texas for 15 years. Before that, I lived in Minnesota from the ages 1-4, and before that I was born in North Carolina and lived there for one short year. I have one older sister who lives in Virginia, which is where a lot of my Mom's family lives. We usually travel to Washington D.C. because they live in cities very close by, and I enjoy spending time with family there - especially with my sister.</p>
-
-        <p>I am studying <strong>Business Information Systems</strong> with a minor in Digital Culture & Data Analytics. I enjoy learning about digital transformation and how automation can support a business or individual. I also would like to master data analytics and be able to communicate data to others.</p>
-
-        <p>Aside from my studies, I enjoy spending time with friends and being active. I love working out, playing basketball, going for a walk, animals - especially my own, my pet bird <em>Zuzu</em>. I am also a resident assistant on campus where I get to meet a lot of different types of students and make all kinds of connections.</p> 
-    
-        <p>My other campus involvement includes being a member of Delta Sigma Pi (Business Fraternity), Frog Army (basketball spirit club), and the Sports Management Club. I attend most of the TCU athletics games and always look to find fun things to do on campus. </p>
-
-        <p>By the end of this class, my goal is to discover an area of DCDA that I am interested in that I had not considered before and pick up on the skills necessary to fulfill that area.</p>
-
+<section class="about-section" id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <div class="about-card">
+            <h3>🎓 Background</h3>
+            <p>I am from Flower Mound, Texas and graduated from Flower Mound High School. I am studying <strong>Business Information Systems</strong> with a minor in Digital Culture & Data Analytics at TCU.</p>
+        </div>
+        
+        <div class="about-card">
+            <h3>💻 This Semester</h3>
+            <p>In WRIT 40363, I've developed foundational web development skills including HTML, CSS, and JavaScript. I've learned to build responsive websites, work with APIs, manage data with localStorage, and collaborate with AI as a development partner.</p>
+        </div>
+        
+        <div class="about-card">
+            <h3>🏀 Beyond Academics</h3>
+            <p>I'm a resident assistant on campus, member of Delta Sigma Pi (Business Fraternity), Frog Army (basketball spirit club), and the Sports Management Club. I enjoy working out, playing basketball, and spending time with my pet bird <em>Zuzu</em>.</p>
+        </div>
     </div>
 </section>
 
 <section class="skills-section" id="skills">
-
-<h2>My Skills</h2>
-
-<div class="skills-container">
-    <div class="skill-card">
-        <h3>Web Development</h3>
-        <p>HTML, CSS</p>
-    </div>
-    <div class="skill-card">
-        <h3>Technical</h3>
-        <p>SQL, Power BI</p>
-    </div>
-    <div class="skill-card">
-        <h3>Communication</h3>
-        <p>Writing, presentation, teamwork</p>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <div class="skill-icon">🎨</div>
+            <h3>HTML & CSS</h3>
+            <ul>
+                <li>Semantic HTML5</li>
+                <li>CSS Grid & Flexbox</li>
+                <li>Responsive Design</li>
+                <li>CSS Variables</li>
+                <li>Accessibility</li>
+            </ul>
+        </div>
+        
+        <div class="skill-category">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <ul>
+                <li>ES6+ Syntax</li>
+                <li>DOM Manipulation</li>
+                <li>Async Programming</li>
+                <li>fetch API</li>
+                <li>localStorage</li>
+            </ul>
+        </div>
+        
+        <div class="skill-category">
+            <div class="skill-icon">📊</div>
+            <h3>Data & Analytics</h3>
+            <ul>
+                <li>SQL</li>
+                <li>Power BI</li>
+                <li>JSON</li>
+                <li>Chart.js</li>
+                <li>Data Visualization</li>
+            </ul>
+        </div>
+        
+        <div class="skill-category">
+            <div class="skill-icon">🛠️</div>
+            <h3>Development Tools</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>GitHub Pages</li>
+                <li>VS Code</li>
+                <li>DevTools</li>
+                <li>AI-Assisted Dev</li>
+            </ul>
+        </div>
     </div>
 </section>
 
 <section class="projects-section" id="projects">
-    <h2>My Projects</h2>
-    <div class="projects-container">
-        <article class="project-card">
-            <div class="project-content">
-                <h3>Class Website Project</h3>
-                <p>I built this website using HTML and CSS for this class.</p>
-                <p><strong>Skills used:</strong> HTML, CSS, Flexbox</p>
+    <h2>Course Projects</h2>
+    <p class="section-subtitle">Four projects showcasing my progression from HTML/CSS fundamentals through advanced JavaScript and AI-assisted development</p>
+    
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-number">01</div>
+            <h3>Personal Portfolio</h3>
+            <p class="project-description">My first professional portfolio website using HTML and CSS, focusing on semantic markup, responsive design, and accessibility.</p>
+            <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Responsive</span>
             </div>
-        </article>
+            <a href="projects/project1-original/CSS/index.html" class="project-link">View Project →</a>
+        </div>
         
-        <article class="project-card">
-            <div class="project-content">
-                <h3>Power BI Reporting</h3>
-                <p>Automated supply chain issue resolution for a team through SQL and Power BI </p>
-                <p><strong>Skills used:</strong> SQL, Power BI, SAP </p>
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-number">02</div>
+            <h3>Local Favorites Tracker</h3>
+            <p class="project-description">Interactive web app for tracking favorite local places with categories, ratings, and notes. Introduced JavaScript fundamentals and data persistence.</p>
+            <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">localStorage</span>
+                <span class="tech-tag">DOM</span>
             </div>
-        </article>
+            <a href="projects/project2-tracker/index.html" class="project-link">View Project →</a>
+        </div>
         
-        <article class="project-card">
-            <div class="project-content">
-                <h3>Future Project</h3>
-                <p>A placeholder for a project I plan to build this semester.</p>
-                <p><strong>Skills to learn:</strong> JavaScript, responsive design</p>
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-number">03</div>
+            <h3>Personal Data Dashboard</h3>
+            <p class="project-description">Dynamic dashboard displaying personalized data from multiple sources using async JavaScript and the fetch API with theme customization.</p>
+            <div class="project-tech">
+                <span class="tech-tag">fetch API</span>
+                <span class="tech-tag">async/await</span>
+                <span class="tech-tag">JSON</span>
             </div>
-        </article>
+            <a href="projects/project3-dashboard/index.html" class="project-link">View Project →</a>
+        </div>
+        
+        <!-- Project Zed -->
+        <div class="project-card featured">
+            <div class="project-number">ZED</div>
+            <div class="featured-badge">AI-Assisted</div>
+            <h3>Budget Tracker</h3>
+            <p class="project-description">Comprehensive budget tracking application built with AI collaboration. Features transaction management, Chart.js visualization, and modular JavaScript architecture.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Modular JS</span>
+                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">localStorage</span>
+                <span class="tech-tag">AI Collab</span>
+            </div>
+            <div class="project-links">
+                <a href="projects/project4-zed/project4-zed/index.html" class="project-link primary">View Project →</a>
+                <a href="projects/project4-zed/AI_COLLABORATION_LOG.md" class="project-link secondary">AI Log</a>
+                <a href="projects/project4-zed/REFLECTION.md" class="project-link secondary">Reflection</a>
+            </div>
+        </div>
     </div>
 </section>
 
-
-
-
-
-
+<section class="contact-section" id="contact">
+    <h2>Get In Touch</h2>
+    <p>Interested in web development, data analytics, and digital transformation</p>
+    <div class="contact-grid">
+        <a href="mailto:t.m.jallad@tcu.edu" class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h3>Email</h3>
+            <p>t.m.jallad@tcu.edu</p>
+        </a>
+        <a href="https://github.com/TMJALLAD-ai" class="contact-card" target="_blank">
+            <div class="contact-icon">💻</div>
+            <h3>GitHub</h3>
+            <p>@TMJALLAD-ai</p>
+        </a>
+    </div>
+</section>
 
 </main>
+
+<footer>
+    <p>&copy; 2025 Taysir "TJ" Jallad | WRIT 40363 | Texas Christian University</p>
+</footer>
+
 </body>
 </html>
